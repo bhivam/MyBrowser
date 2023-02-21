@@ -2,7 +2,7 @@ IDIR=../include
 ODIR=obj
 
 CC=gcc
-CFLAGS=-I -Wextra -Wall -std=c99 -g
+CFLAGS=-I -Wextra -Wall -std=c99 -g -fsanitize=address
 
 _DEPS=utils.h
 DEPS = $(patsubst %,$(IDIR)/%,$(_DEPS))
