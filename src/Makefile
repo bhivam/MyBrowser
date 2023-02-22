@@ -4,10 +4,10 @@ ODIR=obj
 CC=gcc
 CFLAGS=-I -Wextra -Wall -std=c99 -g -fsanitize=address
 
-_DEPS=utils.h
+_DEPS=utils.h parser.h
 DEPS = $(patsubst %,$(IDIR)/%,$(_DEPS))
 
-_OBJ=main.o utils.o
+_OBJ=main.o utils.o parser.o
 OBJ = $(patsubst %,$(ODIR)/%,$(_OBJ))
 
 
