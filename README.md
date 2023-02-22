@@ -8,7 +8,7 @@ Some choices will seem odd. For example I am using POSIX functions for reading, 
 
 ### TODO:
 - HTML parser
-  - [x] Create a function which can parse through an extremely basic HTML file.
+  - [x] ~~Create a function which can parse through an extremely basic HTML file.~~
   - [ ] Add support for text and inline tags.
   - [ ] Add support for class, style, and other attributes
 
