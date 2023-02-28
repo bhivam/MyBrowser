@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <fcntl.h>
-#include "../include/utils.h"
-#include "../include/parser.h"
+#include "utils.h"
+#include "parser.h"
 
 /*
 

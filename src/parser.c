@@ -3,7 +3,7 @@
 #include <fcntl.h>
 #include <unistd.h>
 #include <string.h>
-#include "../include/parser.h"
+#include "parser.h"
 
 // TODO replace this with a hashmap implementation (NO DEPENDENCIES)
 element_type str2type(char *tag_text)
